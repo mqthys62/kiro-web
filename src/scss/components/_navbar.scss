@@ -1,0 +1,27 @@
+    .navbar {
+        background-color: $color-skin;
+        padding: 8px;
+        border-radius: 32px;
+        border: 1px solid $color-grey;
+        margin-top: 16px;
+        // max-width: fit-content;
+        align-self: center;
+        display: flex;
+        &-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+
+            &-link {
+                text-decoration: none;
+                padding: 8px 16px 8px 16px;
+
+            }
+            &-active {
+                text-decoration: none;
+                background-color: $color-white;
+                padding: 8px 16px 8px 16px;
+                border-radius: 32px;
+            }
+        }
+    }

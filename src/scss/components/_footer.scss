@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-white;
+    padding: 32px;
+    gap: 64px;
+    .socialMedia {
+        // margin-top: 32px;
+        display: flex;
+        width: 30%;
+        justify-content: center;
+
+        .media {
+            background-image: url(../../assets/images/telegram.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 48px;
+            height: 48px;
+            margin: 0 auto;
+        }
+    }
+    .paragraph {
+        font-size: $font-size-lg;
+        font-weight: $font-weight-light;
+    }
+}
