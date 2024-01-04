@@ -11,7 +11,9 @@ import AOS from 'aos';
 
 export default function Router() {
   useEffect(() => {
-    AOS.init({});
+    AOS.init({
+      once: true,
+    });
   }, [])
 
   return (

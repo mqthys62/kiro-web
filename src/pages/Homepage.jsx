@@ -86,7 +86,7 @@ export default function Homepage() {
             </div>
           </div>
         </section>
-        <div className="timer-container" data-aos="zoom-out">
+        <div className="timer-container" data-aos="fade-right" data-aos-delay="500">
           <Timer />
           <div className="paragraph">Avant le début du premier Airdrop&nbsp;!</div>
         </div>

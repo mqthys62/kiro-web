@@ -17,7 +17,7 @@ export default function Header() {
                             <div className="img-header"></div>
                         </div>
                     </div>
-                    <section data-aos="fade-up" data-aos-delay="1000" id="section07" class="demo">
+                    <section  data-aos="fade-in" id="section07" class="demo">
                         <div><span></span><span></span><span></span></div>
                     </section>
                 </div>

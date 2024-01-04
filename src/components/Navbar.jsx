@@ -15,7 +15,7 @@ export default function Navbar() {
           <div className='navbar-links'>
             <Link to={'/'} className={isActive('/')}>Accueil</Link>
             <Link to={'/about'} className={isActive('/about')}>À propos</Link>
-            <Link to={'/buy'} className={isActive('/buy')}>Acheter un Kiro</Link>
+            <Link to={'https://solana.com/fr'} className={isActive('https://solana.com/fr')}>Acheter un Kiro</Link>
           </div>
         </nav>
       </div>
@@ -30,7 +30,7 @@ export default function Navbar() {
         <ul class="menu">
           <li><Link to={'/'} className={isActive('/')}>Accueil</Link></li>
           <li><Link to={'/about'} className={isActive('/about')}>À propos</Link></li>
-          <li><Link to={'/buy'} className={isActive('/buy')}>Acheter un Kiro</Link></li>
+          <li><Link to={'https://solana.com/fr'} className={isActive('https://solana.com/fr')}>Acheter un Kiro</Link></li>
         </ul>
       </div>
     </>
