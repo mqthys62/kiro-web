@@ -12,12 +12,12 @@ export default function Homepage() {
         <section className="aboutKiro">
           <div className="main--container">
             <div className="custom-flex">
-              <div className="custom-flex--column" >
+              <div className="custom-flex--column" data-aos="fade-right" >
                 <div className="img-about"></div>
               </div>
-              <div className="custom-flex--column">
+              <div className="custom-flex--column" data-aos="fade-up">
                 <div className="section-title">
-                  <div className="title">Qu’est ce qu’un Kiro ?</div>
+                  <div className="title">Qu’est ce qu’un Kiro&nbsp;?</div>
                   <div className="img-title"></div>
                 </div>
                 <div className="paragraph-group" >
@@ -34,7 +34,7 @@ export default function Homepage() {
             <div className="title">Tokenomics</div>
             <div className="img-title"></div>
           </div>
-          <div className="paragraph">Ahoy, mes camarades de fortune ! Laissez-moi vous conter le récit des vents et des vagues qui forgent la Tokenomics du projet Kiro. 🏴‍☠️💰
+          <div className="paragraph">Ahoy, mes camarades de fortune ! Laissez-moi vous conter le récit des vents et des vagues qui forgent la Tokenomics du projet Kiro.&nbsp;🏴‍☠️💰<br />
             À bord du navire Kiro Token, notre trésorerie est distribuée tel un butin équitable, prête à être partagée avec la communauté qui brave les mers tumultueuses de la crypto. Voici la répartition de notre trésor numérique&nbsp;:</div>
           <div className="custom-flex">
             <div className="custom-flex--column">
@@ -68,7 +68,7 @@ export default function Homepage() {
             <div className="custom-flex">
               <div className="custom-flex--column" data-aos="fade-up">
                 <div className="section-title">
-                  <div className="title">Qu’est ce qu’un Kiro ?</div>
+                  <div className="title">Partenariat</div>
                   <div className="img-title"></div>
                 </div>
                 <div className="paragraph-group" >

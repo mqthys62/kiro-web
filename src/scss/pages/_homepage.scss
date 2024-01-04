@@ -15,6 +15,11 @@
                 height: 100%;
                 margin: 0 auto;
                 border-radius: 32px;
+
+                @media (max-width: 1000px) {
+                    width: 200px;
+                    background-position: center;
+                }
             }
         }
 
@@ -57,7 +62,6 @@
         }
         @media (max-width: 768px) {
             flex-direction: column;
-            // gap: px;
 
             &--column:first-child {
                 .img-about {
@@ -161,6 +165,9 @@
             flex-direction: column;
             gap: 32px;
             width: 50%;
+            @media (max-width: 950px) {
+                width: 100%;
+             }
             .paragraph {
                 font-size: $font-size-xxl;
                 font-weight: $font-weight-regular;
@@ -211,10 +218,37 @@
                 background-repeat: no-repeat;
                 width: 500px;
                 height: 500px;
+
+                @media (max-width: 950px) {
+                    display: none;
+                 }
             }
         }
     }
     @media (max-width: 768px) {
+    border-radius: 0;
+        .section-title {
+            .title {
+                font-size: $font-size-xxxxxl;
+                font-weight: $font-weight-bold;
+                margin-bottom: 16px;
+            }
+            .img-title {
+                background-image: url(../../assets/images/bateau.png);
+                background-repeat: no-repeat;
+                width: 150px;
+                height: 150px;
+                transform: translateY(-80px);
+                @media (max-width: 560px) {
+                    display: none;
+                }
+            }
+        }
+
+        .paragraph {
+            font-size: $font-size-lg;
+            
+        }
         .custom-flex {
             flex-direction: column-reverse;
             gap: 32px;
@@ -227,33 +261,34 @@
                     display: flex;
                     flex-direction: column;
                     gap: 8px;
+                    font-size: $font-size-sm;
                     .color-1 {
-                        width: 24px;
-                        border-radius: 8px;
-                        height: 100%;
+                        width: 100%;
+                        border-radius: 4;
+                        height: 8px;
                         background-color: #422637;
                     }
                     .color-2 {
-                        width: 24px;
-                        border-radius: 8px;
-                        height: 100%;
+                        width: 100%;
+                        border-radius: 4;
+                        height: 8px;
                         background-color: #97473b;
                     }
                     .color-3 {
-                        width: 24px;
-                        border-radius: 8px;
-                        height: 100%;
+                        width: 100%;
+                        border-radius: 4;
+                        height: 8px;
                         background-color: #30332e;
                     }
                     .color-4 {
-                        width: 24px;
-                        border-radius: 8px;
-                        height: 100%;
+                        width: 100%;
+                        border-radius: 4;
+                        height: 8px;
                         background-color: #fedaa6;
                     }
                 }
                 .bot-paragraph {
-                    font-size: $font-size-xl;
+                    font-size: $font-size-lg;
                     font-weight: $font-weight-regular;
                 }
             }
@@ -262,12 +297,7 @@
                 display: flex;
                 justify-content: center;
                 width: fit-content;
-                .img-camembert {
-                    background-image: url(../../assets/images/camembert.png);
-                    background-repeat: no-repeat;
-                    width: 300px;
-                    height: 300px;
-                }
+
             }
         }
     }
@@ -291,6 +321,10 @@
                 height: 100%;
                 margin: 0 auto;
                 border-radius: 32px;
+                @media (max-width: 1000px) {
+                    width: 200px;
+                    background-position: center;
+                }
             }
         }
 
@@ -326,6 +360,44 @@
             }
         }
     }
+
+    @media (max-width: 768px) {
+        .custom-flex {
+            flex-direction: column-reverse;
+
+            &--column:last-child {
+                .img-about {
+                    width: 100%;
+                    height: 150px;
+                    border-radius: 0;
+                    background-position-y: -150px;
+                }
+            }
+
+            &--column:first-child {
+                border-radius: 0;
+                .section-title {
+                    display: flex;
+                    gap: 32px;
+                    .title {
+                        font-size: $font-size-xxxxl;
+                        font-weight: $font-weight-bold;
+                        margin-bottom: 16px;
+                    }
+
+                    .img-title {
+                        display: none;
+                    }
+                }
+                .paragraph-group {
+                    transform: translateY(0);
+                    font-size: $font-size-lg;
+                    .paragraph {
+                    }
+                }
+            }
+        }
+    }
 }
 
 .timer-container {
@@ -346,6 +418,12 @@
         line-height: calc(2ex + 2px);
         text-align: center;
     }
+
+    @media (max-width: 479px) {
+        width: 100%;
+        border-radius: 0;
+        
+    }
 }
 
 .token-info {
@@ -364,6 +442,7 @@
             font-size: $font-size-xxxxxxl;
             font-weight: $font-weight-bold;
             margin-bottom: 16px;
+            width: 75%;
         }
         .img-title {
             background-image: url(../../assets/images/token.png);
@@ -383,4 +462,29 @@
         .paragraph {
         }
     }
+
+    @media (max-width: 768px) {
+        border-radius: 0;
+        .section-title {
+            display: flex;
+            gap: 32px;
+            .title {
+                font-size: $font-size-xxxxl;
+                font-weight: $font-weight-bold;
+                margin-bottom: 16px;
+                width: 100%;
+            }
+
+            .img-title {
+                display: none;
+            }
+        }
+        .paragraph-group {
+            transform: translateY(0);
+            font-size: $font-size-lg;
+            .paragraph {
+            }
+        }
+    }
 }
+

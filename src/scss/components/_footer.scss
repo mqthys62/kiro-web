@@ -16,13 +16,43 @@
             background-image: url(../../assets/images/telegram.png);
             background-repeat: no-repeat;
             background-size: cover;
-            width: 48px;
-            height: 48px;
+            width: 32px;
+            height: 32px;
             margin: 0 auto;
         }
     }
     .paragraph {
         font-size: $font-size-lg;
         font-weight: $font-weight-light;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        .socialMedia {
+            width: 50%;
+
+            .media {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .paragraph {
+            font-size: $font-size-md;
+        }
+    }
+
+    @media (max-width: 379px) {
+        .socialMedia {
+            width: 70%;
+
+            .media {
+                width: 18px;
+                height: 18px;
+            }
+        }
+        .paragraph {
+            font-size: $font-size-sm;
+        }
     }
 }
