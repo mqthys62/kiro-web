@@ -19,6 +19,20 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
+      <div class="top-nav">
+        <div className='top-nav-logo'>
+          Kiro
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li><Link to={'/'} className={isActive('/')}>Accueil</Link></li>
+          <li><Link to={'/about'} className={isActive('/about')}>À propos</Link></li>
+          <li><Link to={'/buy'} className={isActive('/buy')}>Acheter un Kiro</Link></li>
+        </ul>
+      </div>
     </>
   );
 }

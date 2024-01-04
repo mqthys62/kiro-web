@@ -12,16 +12,15 @@ export default function Homepage() {
         <section className="aboutKiro">
           <div className="main--container">
             <div className="custom-flex">
-              <div className="custom-flex--column" data-aos="fade-right">
+              <div className="custom-flex--column" >
                 <div className="img-about"></div>
               </div>
-              <div className="custom-flex--column" data-aos="fade-up">
+              <div className="custom-flex--column">
                 <div className="section-title">
                   <div className="title">Qu’est ce qu’un Kiro ?</div>
                   <div className="img-title"></div>
                 </div>
                 <div className="paragraph-group" >
-
                   <div className="paragraph">Ahoy matelots ! Je suis Kiro,</div>
                   <div className="paragraph">le capitaine du navire légendaire 'Le Corsaire Crypto'. Laissez-moi vous conter l'histoire captivante du Kiron Token, notre trésor numérique conçu pour propulser tout l'équipage vers des horizons plus riches.</div>
                   <div className="paragraph">Des débuts excitants, une marée montante de prospérité, et une communauté unie ont façonné notre aventure. Le Kiron Token n'est pas seulement une cryptomonnaie, c'est le cœur vibrant d'une communauté déterminée à prospérer ensemble. À la vôtre, matelots, à une vie crypto pleine de trésors partagés !</div>
